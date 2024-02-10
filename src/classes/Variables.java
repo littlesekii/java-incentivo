@@ -48,7 +48,6 @@ public class Variables {
         System.out.println();
 
         System.out.println("Boolean: " + isBrazilian);
-        System.out.println();
 
     }
 }
