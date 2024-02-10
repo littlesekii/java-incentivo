@@ -1,3 +1,4 @@
+import classes.basics.Castings;
 import classes.basics.Loops;
 
 @SuppressWarnings("all")
@@ -29,14 +30,18 @@ public class Main {
 //
 //        dts.arrayLists();
 //        System.out.println();
-
-        Loops loo = new Loops();
-
+//
+//        Loops loo = new Loops();
+//
 //        loo.forLoop();
 //        System.out.println();
+//
+//        loo.whileLoop();
+//        System.out.println();
 
-        loo.whileLoop();
+        Castings cas = new Castings();
+
+        cas.implicitCast();
         System.out.println();
-
     }
 }
