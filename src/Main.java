@@ -43,5 +43,8 @@ public class Main {
 
         cas.implicitCast();
         System.out.println();
+
+        cas.explicitCast();
+        System.out.println();
     }
 }
