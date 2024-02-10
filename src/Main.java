@@ -1,3 +1,5 @@
+import classes.basics.Loops;
+
 @SuppressWarnings("all")
 public class Main {
     public static void main(String[] args) {
@@ -27,6 +29,11 @@ public class Main {
 //
 //        dts.arrayLists();
 //        System.out.println();
+
+        Loops loo = new Loops();
+
+        loo.forLoop();
+        System.out.println();
 
 
     }
