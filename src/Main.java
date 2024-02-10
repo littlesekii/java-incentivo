@@ -22,12 +22,15 @@ public class Main {
 //
 //        con.conditionals();
 //        System.out.println();
-
-        //Data Structures
-        DataStructures dts = new DataStructures();
-
-        dts.arrays();
-        System.out.println();
+//
+//        //Data Structures
+//        DataStructures dts = new DataStructures();
+//
+//        dts.arrays();
+//        System.out.println();
+//
+//        dts.arrayLists();
+//        System.out.println();
 
 
     }

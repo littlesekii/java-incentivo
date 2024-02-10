@@ -1,5 +1,7 @@
 package classes;
 
+import java.util.ArrayList;
+
 @SuppressWarnings("all")
 public class DataStructures {
 
@@ -27,5 +29,28 @@ public class DataStructures {
         System.out.println("Thursday: " + businessDay(businessDay[4]));
         System.out.println("Friday: " + businessDay(businessDay[5]));
         System.out.println("Saturday: " + businessDay(businessDay[6]));
+    }
+
+    public void arrayLists() {
+        ArrayList<String> entrants = new ArrayList<String>();
+        //add values
+        entrants.add("Davi Bacalhau");
+        entrants.add("Flávia Helena");
+        entrants.add("Fernanda Kiper");
+        entrants.add("Guilherme Grilo");
+        entrants.add("Judson Santiago");
+
+        //edit a value
+        entrants.set(2, "Fernanda Kipper");
+
+        //remove a value
+        entrants.remove("Guilherme Grilo");
+
+        System.out.println("===Array Lists===");
+        System.out.println("Entrant #01: " + entrants.get(0));
+        System.out.println("Entrant #02: " + entrants.get(1));
+        System.out.println("Entrant #03: " + entrants.get(2));
+        System.out.println("Entrant #04: " + entrants.get(3));
+
     }
 }
