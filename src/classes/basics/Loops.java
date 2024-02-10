@@ -23,8 +23,6 @@ public class Loops {
         forecasts.add(2030);
 
         System.out.println("===While Loop===");
-
-
         Integer year = forecasts.get(0);
         while (year < 2028) {
             forecasts.remove(year);
