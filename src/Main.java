@@ -1,7 +1,3 @@
-import classes.Conditionals;
-import classes.DataStructures;
-import classes.Variables;
-
 @SuppressWarnings("all")
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package classes;
+package classes.basics;
 
 @SuppressWarnings("all")
 public class Conditionals {
