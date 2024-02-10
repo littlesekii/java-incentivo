@@ -32,9 +32,11 @@ public class Main {
 
         Loops loo = new Loops();
 
-        loo.forLoop();
-        System.out.println();
+//        loo.forLoop();
+//        System.out.println();
 
+        loo.whileLoop();
+        System.out.println();
 
     }
 }
