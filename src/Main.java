@@ -1,5 +1,4 @@
-import classes.basics.Castings;
-import classes.basics.Loops;
+import classes.basics.*;
 import classes.oop.Constructors;
 import classes.oop.inheritance.Sword;
 import classes.oop.inheritance.sword.Absword;
@@ -11,48 +10,48 @@ public class Main {
         System.out.println("Hello world!");
         System.out.println();
 
-//        //Variables
-//        Variables var = new Variables();
-//
-//        var.variables();
-//        System.out.println();
-//
-//        var.primitiveTypes();
-//        System.out.println();
-//
-//        //Conditionals
-//        Conditionals con = new Conditionals();
-//
-//        con.conditionals();
-//        System.out.println();
-//
-//        //Data Structures
-//        DataStructures dts = new DataStructures();
-//
-//        dts.arrays();
-//        System.out.println();
-//
-//        dts.arrayLists();
-//        System.out.println();
-//
-//        Loops loo = new Loops();
-//
-//        loo.forLoop();
-//        System.out.println();
-//
-//        loo.whileLoop();
-//        System.out.println();
-//
-//        Castings cas = new Castings();
-//
-//        cas.implicitCast();
-//        System.out.println();
-//
-//        cas.explicitCast();
-//        System.out.println();
-//
-//        Constructors con0 = new Constructors();
-//        Constructors con = new Constructors(5, 22);
+        //Variables
+        Variables var = new Variables();
+
+        var.variables();
+        System.out.println();
+
+        var.primitiveTypes();
+        System.out.println();
+
+        //Conditionals
+        Conditionals con = new Conditionals();
+
+        con.conditionals();
+        System.out.println();
+
+        //Data Structures
+        DataStructures dts = new DataStructures();
+
+        dts.arrays();
+        System.out.println();
+
+        dts.arrayLists();
+        System.out.println();
+
+        Loops loo = new Loops();
+
+        loo.forLoop();
+        System.out.println();
+
+        loo.whileLoop();
+        System.out.println();
+
+        Castings cas = new Castings();
+
+        cas.implicitCast();
+        System.out.println();
+
+        cas.explicitCast();
+        System.out.println();
+
+        Constructors cns0 = new Constructors();
+        Constructors cns = new Constructors(5, 22);
 
         System.out.println("===Sword===");
         Sword sword = new Sword(12);
