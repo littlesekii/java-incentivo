@@ -1,5 +1,6 @@
 import classes.basics.Castings;
 import classes.basics.Loops;
+import classes.oop.Constructors;
 
 @SuppressWarnings("all")
 public class Main {
@@ -38,13 +39,18 @@ public class Main {
 //
 //        loo.whileLoop();
 //        System.out.println();
+//
+//        Castings cas = new Castings();
+//
+//        cas.implicitCast();
+//        System.out.println();
+//
+//        cas.explicitCast();
+//        System.out.println();
 
-        Castings cas = new Castings();
+        Constructors con0 = new Constructors();
+        Constructors con = new Constructors(5, 22);
 
-        cas.implicitCast();
-        System.out.println();
 
-        cas.explicitCast();
-        System.out.println();
     }
 }
